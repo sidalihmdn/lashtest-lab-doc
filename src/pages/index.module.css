@@ -1,0 +1,39 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 5rem 0 4rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* The primary CTA needs to sit on the brand accent with dark text */
+.cta {
+  background-color: var(--ll-accent);
+  border-color: var(--ll-accent);
+  color: var(--ll-bg);
+  font-weight: 600;
+}
+
+.cta:hover {
+  background-color: var(--ll-accent-hover);
+  border-color: var(--ll-accent-hover);
+  color: var(--ll-bg);
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 3rem 1rem;
+  }
+}
