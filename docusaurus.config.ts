@@ -67,7 +67,7 @@ const config: Config = {
           label: 'Documentation',
         },
         {
-          href: 'https://lashtestlab.com',
+          href: 'https://app.lashtest.com',
           label: 'Go to app',
           position: 'right',
         },
